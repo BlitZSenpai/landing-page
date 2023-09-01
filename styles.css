@@ -1,0 +1,23 @@
+/* .heading {
+  background-color: 
+    radial-gradient(
+      farthest-corner circle at 100% 0% in oklab, 
+      oklch(80% .4 222) 0%, oklch(35% .5 313) 50%, oklch(80% 0.3 24) 100%
+    )
+  ;
+} */
+
+.info {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  height: 50px;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.info:hover {
+  width: 200px;
+  height: 200px;
+  transform: rotate(90deg);
+}
