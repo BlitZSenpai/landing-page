@@ -30,3 +30,7 @@ svg {
 .link {
   text-decoration: none;
 }
+
+.link:link, a:visited {
+  color: #FFF3DA;
+}
