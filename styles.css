@@ -26,3 +26,7 @@ svg {
   font-family: sans-serif;
   color: #FFF3DA;
 }
+
+.link {
+  text-decoration: none;
+}
