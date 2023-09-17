@@ -34,3 +34,8 @@ svg {
 .link:link, a:visited {
   color: #FFF3DA;
 }
+
+.click {
+  text-decoration: none;
+  margin-top: 0%;
+}
